@@ -496,7 +496,25 @@ p	{color: white;
 
 	iframe { width: 100%; }
 
+	.imagen__galeria {
 
+ 	transition: all 400ms;
+
+ 	}
+
+ 	.imagen__galeria:hover {
+
+	transform: scale(1.1);
+
+
+	}
+
+	.figure:hover {
+
+	transform: scale(1.15);
+
+
+	}
  
 }
  /*ends responsive*/
