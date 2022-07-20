@@ -5,104 +5,119 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FrichoxArmy</title>
 	<link rel="shortcut icon" href="../img/favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-	<nav>
-		
-		<a href="../index.html">
-			<img src="../img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
-		</a>
+<!-- stars nav  -->
+ 
+ 	<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+    	<img src="../img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
+    </a>
+    <button class="navbar-toggler bg-violet" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-gray"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="noticias.html">NOTICIAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="guias.html">GUIAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="comunidad.html">COMUNIDAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>	
 
-		<ul>
-			<li>
-				<a href="noticias.html">NOTICIAS</a>
+<!-- ends nav -->
 
-			</li>
-			<li>
-				<a href="guias.html">GUIAS</a>
+<!-- starts header -->
 
-			</li>
-			<li>
-				<a href="comunidad.html">COMUNIDAD</a>
-
-			</li>
-			<li>
-				<a href="contacto.html">CONTACTO</a>
-
-			</li>
-
-
-		</ul>
-
-
-	</nav>
-	<!-- ends nav -->
-
-	<header class="seccion">
-		<img src="../img/comunidad.jpg" alt="Imagen Comunidad" class="articulo__header">
+	<header>
+		<img src="../img/comunidad.jpg" alt="Imagen Comunidad" class="w-100">
 	</header>
-	<!-- ends header -->
+
+<!-- ends header -->
 	<main>
 
+	<div class="container-fluid py-3">
 
 		<h1> COMUNIDAD</h1>
 
-		<section class="seccion"> 
+		<div class="row"> 
 
-		<div class="display__flex">
-
-		<p class="text-justify item__mitad"> Unite al server de discord de la comunidad! Allí podrás compartir experiencias y momentos con los demás integrantes, podrás informarte sobre eventos futuros y enterarte cuando esté es stream al instante. Asegúrate de leer y cumplir las reglas para poder mantener un ambiente amigable.
- 		</p>
+			
+			<p class="text-justify col-sm-8 text-contacto"> Unite al server de discord de la comunidad! Allí podrás compartir experiencias y momentos con los demás integrantes, podrás informarte sobre eventos futuros y enterarte cuando esté es stream al instante. Asegúrate de leer y cumplir las reglas para poder mantener un ambiente amigable.
+ 			</p>	
+ 		
+ 			<a href="https://discord.gg/aW6VnjTtRk " target="_blank" class="col-4 py-3">
+ 			
+ 			<img src="../img/discord.png" alt="Imagen de discord" class="w-100">
+ 			</a>
 
  		
- 			
- 		
- 		<a href="https://discord.gg/aW6VnjTtRk " target="_blank" class="item__mitad">
- 			
- 			<img src="../img/discord.png" alt="Imagen de discord" class="imagen__mitad">
- 		</a>	
-
-
- 		</div>
-
-		</section> 
+		</div> 
 
 		<h2>Imágenes compartidas por la comunidad</h2>
 
-		<div class="galeria__imagenes">
-			
-			<div id="arenas">
-			<img src="../img/newworldarenas.jpg" alt="Imagen de New World Arenas" class="imagen__galeria">
+<!-- stars carousel  -->
+
+			<div id="carouselExampleIndicators" class="carousel slide pb-4" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+			  </div>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="../img/newworldarenas.jpg" class="d-block w-100" alt="Imagen de New World Arenas">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../img/neishatum.jpg" class="d-block w-100" alt="Imagen de Neishatum New World">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../img/Isabella.jpg" class="d-block w-100" alt="Imagen de Isabella New World">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../img/lazarus.jpg" class="d-block w-100" alt="Imagen de Chardis New World">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../img/genesis.jpg" class="d-block w-100" alt="Imagen de genesis New World">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../img/outpost.jpeg" class="d-block w-100" alt="Imagen de New World Out Post Rush">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../img/personaje.jpg" class="d-block w-100" alt="Imagen de New World Personaje">
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
 			</div>
 
-			<div id="neishatum"> 
-			<img src="../img/neishatum.jpg" alt="Imagen de Neishatum New World " class="imagen__galeria">
-			</div>
+<!-- ends carousel  -->
 
-			<div id="isabella"> 
-			<img src="../img/Isabella.jpg" alt="Imagen de Isabella New World " class="imagen__galeria">
-			</div>
-
-			<div id="lazarus"> 
-			<img src="../img/lazarus.jpg" alt="Imagen de Chardis New World " class="imagen__galeria">
-			</div>
-
-			<div id="genesis"> 
-			<img src="../img/genesis.jpg" alt="Imagen de genesis New World " class="imagen__galeria">
-			</div>
-
-			<div id="outpost"> 
-			<img src="../img/outpost.jpeg" alt="Imagen de New World Out Post Rush" class="imagen__galeria">
-			</div>
-
-			<div id="personaje"> 
-			<img src="../img/personaje.jpg" alt="Imagen de New World Personaje" class="imagen__galeria">
-			</div>
-
-
-		</div>
+	</div>	
 
 	</main>
 
@@ -126,5 +141,8 @@
 
 
 	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

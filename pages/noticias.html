@@ -5,52 +5,54 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FrichoxArmy</title>
 	<link rel="shortcut icon" href="../img/favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-	<nav>
-		
-		<a href="../index.html">
-			<img src="../img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
-		</a>
+<!-- stars nav  -->
+ 
+ 	<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+    	<img src="../img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
+    </a>
+    <button class="navbar-toggler bg-violet" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-gray"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="noticias.html">NOTICIAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="guias.html">GUIAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="comunidad.html">COMUNIDAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>	
 
-		<ul>
-			<li>
-				<a href="noticias.html">NOTICIAS</a>
-
-			</li>
-			<li>
-				<a href="guias.html">GUIAS</a>
-
-			</li>
-			<li>
-				<a href="comunidad.html">COMUNIDAD</a>
-
-			</li>
-			<li>
-				<a href="contacto.html">CONTACTO</a>
-
-			</li>
+<!-- ends nav -->
 
 
-		</ul>
+<!-- starts header -->
 
-
-	</nav>
-
-
-	
-	<!-- ends nav -->
-
-	<header class="seccion">
-		<img src="../img/gamingnews.jpg" alt="Imagen Noticias" class="articulo__header">
+	<header>
+		<img src="../img/gamingnews.jpg" alt="Imagen Noticias" class="w-100">
 	</header>
-	<!-- ends header -->
+
+<!-- ends header -->
 	
 	<main>
 
-		
+<div class="container-fluid py-3">	
 
 		<h1> NOTICIAS</h1>
 
@@ -58,24 +60,21 @@
 
 		<h2 id="noticiahl"> Hogwarts Legacy llega a finales de 2022 </h2>
 
-			<article class="seccion__noticia">
+			<article class="row">
 
-			<img src="../img/hogwartslegacy.jpg" alt=" Imagen de Hogwarts Legacy" class="imagen__noticia">
+			<img src="../img/hogwartslegacy.jpg" alt=" Imagen de Hogwarts Legacy" class="w-100 pb-3">
 
-			<div class="interior__noticia"> 
 
-			<div class="texto__noticia"> 
+			<div class="col-md-6"> 
 
 			<p> Hogwarts Legacy es un RPG de acción en un mundo abierto ambientado en el universo de los libros de Harry Potter. Por primera vez, disfruta de Hogwarts en el siglo XIX. Tu personaje es un estudiante que tiene la clave de un antiguo secreto que amenaza con destruir el mundo mágico. Ahora puedes tomar el control de la acción y ser el centro de tu propia aventura en el mundo mágico. La leyenda de Hogwarts es tuya. Crea tu propio legado.
 
 			</p>	
 			</div>
 		
-		 	<div class="video__noticia">
+		 	<div class="col-md-6">
 
-		 	<iframe width="100%" height="315" src="https://www.youtube.com/embed/QjeYtrpTv-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		 	</div>
-
+		 	<iframe class="w-100" height="315" src="https://www.youtube.com/embed/QjeYtrpTv-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		 	</div>
 		 
 			</article>
@@ -84,13 +83,11 @@
 
 		<h2 id="noticiatl"> Thrones and Liberty estará disponible en la segunda mitad de 2022 </h2>
 
-			<article class="seccion__noticia">
+			<article class="row">
 
-			<img src="../img/thronesandliberty.jpg" alt=" Imagen de Thrones and Liberty" class="imagen__noticia">
+			<img src="../img/thronesandliberty.jpg" alt=" Imagen de Thrones and Liberty" class="w-100 pb-3">
 
-			<div class="interior__noticia"> 
-
-			<div class="texto__noticia"> 
+			<div class="col-md-6"> 
 
 			<p> NCSoft presenta su nuevo MMO para PC y consola, Throne and Liberty. Antiguamente conocido como Project TL, antiguamente conocido como Lineage Eternal. Con lanzamiento global para este 2022. 
 			Este MMORPG de Nueva Generación está pensado para que el mundo abierto sea menos monótono. El entorno cambiará a medida que cambia el clima,  e incluso el flujo de la batalla pueda cambiar según cambia la dirección del viento, siendo posible encontrarnos con nuevos enemigos en diferentes momentos. Se espera que varias variables produzcan una gran variedad de jugabilidad y partidas.
@@ -100,12 +97,11 @@
 			</div>
 			
 		
-		 	<div class="video__noticia">
+		 	<div class="col-md-6">
 
-		 	<iframe width="100%" height="315" src="https://www.youtube.com/embed/dSTahTUVYao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		 	<iframe class="w-100" height="315" src="https://www.youtube.com/embed/dSTahTUVYao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		 	</div>
 
-		 	</div>
 
 			</article>
 
@@ -113,13 +109,12 @@
 
 		<h2 id="noticiaark"> Ark 2 se lanzará en 2023 </h2>
 
-			<article class="seccion__noticia">
+			<article class="row">
 
-			<img src="../img/ark2.jpg" alt=" Imagen de ARK 2" class="imagen__noticia">
+			<img src="../img/ark2.jpg" alt=" Imagen de ARK 2" class="w-100 pb-3">
 
-			<div class="interior__noticia"> 
 
-			<div class="texto__noticia"> 
+			<div class="col-md-6"> 
 
 			<p> ARK 2 es la secuela de ARK: Survival Evolved. Este juego fue anunciado en el Game Awards 2020, y se tratará de un juego tipo sandbox de supervivencia, de forma similar al primero. El juego se lanzará en consolas de nueva generación.
 			Protagonizado por Vin Diesel como el héroe protagonista Santiago y a Auli’i Cravalho (Moana) como la voz de la hija de Santiago, Meeka, y espera revolucionar el género survival para la próxima generación, gracias al motor gráfico Unreal Engine 5.
@@ -128,16 +123,15 @@
 
 			</div>
 		
-		 	<div class="video__noticia">
+		 	<div class="col-md-6">
 
-		 	<iframe width="100%" height="315" src="https://www.youtube.com/embed/D8KbXpk2J9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		 	</div>
-
+		 	<iframe class="w-100" height="315" src="https://www.youtube.com/embed/D8KbXpk2J9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		 	</div>
 
 			</article>
 
-		
+	
+</div>
 
 	</main>
 
@@ -162,5 +156,7 @@
 
 	</footer>
 
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

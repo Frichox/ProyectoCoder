@@ -5,46 +5,53 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FrichoxArmy</title>
 	<link rel="shortcut icon" href="../img/favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-	<nav>
-		
-		<a href="../index.html">
-			<img src="../img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
-		</a>
+<!-- stars nav  -->
+ 
+		 	<nav class="navbar navbar-expand-md sticky-top">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="../index.html">
+		    	<img src="../img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
+		    </a>
+		    <button class="navbar-toggler bg-violet" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon bg-gray"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="noticias.html">NOTICIAS</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="guias.html">GUIAS</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="comunidad.html">COMUNIDAD</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>	
 
-		<ul>
-			<li>
-				<a href="noticias.html">NOTICIAS</a>
+<!-- ends nav -->
 
-			</li>
-			<li>
-				<a href="guias.html">GUIAS</a>
+<!-- starts header -->
 
-			</li>
-			<li>
-				<a href="comunidad.html">COMUNIDAD</a>
-
-			</li>
-			<li>
-				<a href="contacto.html">CONTACTO</a>
-
-			</li>
-
-
-		</ul>
-
-
-	</nav>
-	<!-- ends nav -->
-
-	<header class="seccion">
-		<img src="../img/guia.jpg" alt="Imagen Guias" class="articulo__header">
+	<header>
+		<img src="../img/guia.jpg" alt="Imagen Guias" class="w-100">
 	</header>
-	<!-- ends header -->
+
+<!-- ends header -->
+
 	<main>
+
+<div class="container-fluid py-3">
 
 		
 		<h1> GUIAS</h1>
@@ -54,14 +61,14 @@
 		
 			
 
-			<h2> NEW WORLD</h2>
+		<h2> NEW WORLD</h2>
 
-			<article class="seccion__noticia">
+			<article class="row">
 
 <!-- starts healer guide -->
 			<h3 id="guiahealer"> GUIA DE HEALER </h3>
 
-			<img src="../img/guiadehealer.jpg" alt=" Imagen de Healer New World"	class="imagen__guia">
+			<img src="../img/guiadehealer.jpg" alt=" Imagen de Healer New World"	class="w-100 pb-3">
 
 				<p>
 				El healer es indispensable para cualquier tipo de contenido tanto PVE como PVP. Nuestra tarea será mantener con vida a nuestros compañeros y aportar utilidad.	
@@ -73,15 +80,14 @@
 				Para cualquier modo de juego es recomendable utilizar los siguientes atributos:
 				</p>
 
-				<div class="display__flex">
 
-				<img src="../img/atributoshealer.jpg" alt=" Imagen de atributos para healer" class="imagen__guia item__mitad">
+				<div class="col-md-6"> 
+					<img src="../img/atributoshealer.jpg" alt=" Imagen de atributos para healer" class="w-100 pb-3">
+				</div>
 
-
-				<p class="item__mitad"> Esto nos permitirá tener una muy buena supervivencia y que las curaciones sean excelentes ( tener en cuenta que para lograr esto debemos tener una puntuación de equipo de 623+ y utilizar comida de atributo nivel 5). En caso de no alcanzar esta cantidad de puntos de atributo es recomendable utilizar 300 de concentración y 150 de constitución. 
+				<p class="col-md-6"> Esto nos permitirá tener una muy buena supervivencia y que las curaciones sean excelentes ( tener en cuenta que para lograr esto debemos tener una puntuación de equipo de 623+ y utilizar comida de atributo nivel 5). En caso de no alcanzar esta cantidad de puntos de atributo es recomendable utilizar 300 de concentración y 150 de constitución. 
 				</p>	
 				
-				</div>
 
 				<p> En la rama de concentración al utilizar 300 obtendremos: </p>
 
@@ -319,29 +325,28 @@
 
 					<p> En el bastón vital utilizaremos:</p>
 
-					<div class="display__flex">
+					<div class="col-md-6">
 
-					<img src="../img/maestriabastonvital.jpg" alt=" Imagen de puntos de maestría para bastón vital" class="imagen__guia item__mitad">
-
-
-					
-					<p class="item__mitad"> El suelo sagrado fortificador es imprescindible en cualquier build de healer ya que otorga una curación en área que dura 12 segundos y además otorga fortificación a los aliados cuando tenemos el beneficio en el equipamiento. El orbe de protección es una habilidad muy importante dentro de esta build ya que además de ser una curación en área con muy poco enfriamiento, otorga fortificación lo que nos permite curar más con otras habilidades. Por último, utilizaremos el abrazo divino como cura individual, lo que nos permitirá curar completamente a los aliados que tengan menos del 50% de vida (reducirá su enfriamiento cuando tenemos el beneficio en el equipo) y nos permitirá curar a la vez a un aliado cercano por la misma cantidad. </p>
+					<img src="../img/maestriabastonvital.jpg" alt=" Imagen de puntos de maestría para bastón vital" class="w-100 pb-3">
 
 					</div>
-
 					
+					<p class="col-md-6"> El suelo sagrado fortificador es imprescindible en cualquier build de healer ya que otorga una curación en área que dura 12 segundos y además otorga fortificación a los aliados cuando tenemos el beneficio en el equipamiento. El orbe de protección es una habilidad muy importante dentro de esta build ya que además de ser una curación en área con muy poco enfriamiento, otorga fortificación lo que nos permite curar más con otras habilidades. Por último, utilizaremos el abrazo divino como cura individual, lo que nos permitirá curar completamente a los aliados que tengan menos del 50% de vida (reducirá su enfriamiento cuando tenemos el beneficio en el equipo) y nos permitirá curar a la vez a un aliado cercano por la misma cantidad. </p>
+
+				
 
 					<p>En la manopla de hielo escogeremos: </p>
 
-					<div class="display__flex"> 
+					<div class="col-md-6"> 
 
-					<img src="../img/maestriahielohealer.jpg" alt=" Imagen de puntos de maestría para manopla de hielo" class="imagen__guia item__mitad">
+					<img src="../img/maestriahielohealer.jpg" alt=" Imagen de puntos de maestría para manopla de hielo" class="w-100 pb-3">
 
-					<p class="item__mitad"> Utilizaremos la manopla de hielo como arma defensiva, la sepultura nos permitirá hacernos invulnerables durante un tiempo, regenerar maná y resistencia, eliminar todas las despontenciaciones y al salir nos otorga un aumento de defensa del 25% durante 3 segundos. Lluvia de hielo nos otorga un aumento de velocidad de movimiento al atravesar la misma y aplica una fuerte congelación y desgarro a los enemigos. El poste de hielo crea una zona de congelación en la cual obtenemos mayor velocidad de movimiento, ataca a los enemigos constantemente y suele ser bastante molesto por lo cual los enemigos prefieren destruirlo, lo que nos permite librarnos de su atención para curarnos o reposicionarnos.</p>
+					</div>
+
+					<p class="col-md-6"> Utilizaremos la manopla de hielo como arma defensiva, la sepultura nos permitirá hacernos invulnerables durante un tiempo, regenerar maná y resistencia, eliminar todas las despontenciaciones y al salir nos otorga un aumento de defensa del 25% durante 3 segundos. Lluvia de hielo nos otorga un aumento de velocidad de movimiento al atravesar la misma y aplica una fuerte congelación y desgarro a los enemigos. El poste de hielo crea una zona de congelación en la cual obtenemos mayor velocidad de movimiento, ataca a los enemigos constantemente y suele ser bastante molesto por lo cual los enemigos prefieren destruirlo, lo que nos permite librarnos de su atención para curarnos o reposicionarnos.</p>
 
 <!-- ends weapon mastery/stars weapon gems -->
 
-					</div>
 
 					<h4> GEMAS PARA ARMAS:</h4>
 
@@ -423,7 +428,7 @@
 
 			<h3 id="guiamosquete"> GUIA DE MOSQUETE GLASS CANNON  </h3>
 
-			<img src="../img/guiamosquete.jpg" alt=" Imagen de mosquete New World" class="imagen__guia">
+			<img src="../img/guiamosquete.jpg" alt=" Imagen de mosquete New World" class="w-100 pb-3">
 
 				<p>
 				El mosquete glass cannon es una build que busca hacer gran cantidad de daño a sus objetivos, dividiendo el daño entre físico y elemental. 	
@@ -431,29 +436,29 @@
 <!-- stars atribute -->
 				<h4> ATRIBUTOS</h4>
 
-				<div class="display__flex">
+				
 
-				<figure class="item__mitad">
+				<figure class="col-md-6">
 
 				<p> 
 				Si lo que buscan es realizar la mayor cantidad de daño posible deben utilizar:
 				</p>
 
-				<img src="../img/atributosmusketfulldmg.jpg" alt=" Imagen de atributos mosquete full daño" class="imagen__guia">
+				<img src="../img/atributosmusketfulldmg.jpg" alt=" Imagen de atributos mosquete full daño" class="w-100 pb-3">
 
 				</figure>
 
-				<figure class="item__mitad">
+				<figure class="col-md-6">
 
 				<p> 
 				Si desean realizar una cantidad de daño considerable pero tener más supervivencia utilicen:
 				</p>
 
-				<img src="../img/atributosmusketconst.jpg" alt=" Imagen de atributos mosquete con más supervivencia" class="imagen__guia">
+				<img src="../img/atributosmusketconst.jpg" alt=" Imagen de atributos mosquete con más supervivencia" class="w-100 pb-3">
 
 				</figure>
 
-				</div>
+				
 				
 				<p> En la rama de destreza al utilizar 300 obtendremos: </p>
 
@@ -698,25 +703,25 @@
 
 					<p> En el mosquete utilizaremos:</p>
 
-					<div class="display__flex"> 
+					<div class="col-md-6"> 
 
-					<img src="../img/maestriamusket.jpg" alt=" Imagen de puntos de maestría para mosquete" class="imagen__guia item__mitad">
-
-					<p class="item__mitad"> Utilizaremos quemadura de pólvora para poder infligir daño prolongado a nuestro enemigos, además nos permitirá hacer más daño a los enemigos afectados por quemadura  y lentitud con disparos normales del mosquete, esto junto con el 22% de daño que nos otorga la postura del tirador y sus 5 disparos nos permitirá derribar enemigos fácilmente. Por último utilizaremos bomba adherente para aportar daño en área.  Es muy importante la mejora del francotirador para poder hacer zoom al disparar, así como también la mejora de recarga táctica para tener otro disparo al esquivar.  </p>
-
+					<img src="../img/maestriamusket.jpg" alt=" Imagen de puntos de maestría para mosquete" class="w-100 pb-3">
 
 					</div>
+
+					<p class="col-md-6"> Utilizaremos quemadura de pólvora para poder infligir daño prolongado a nuestro enemigos, además nos permitirá hacer más daño a los enemigos afectados por quemadura  y lentitud con disparos normales del mosquete, esto junto con el 22% de daño que nos otorga la postura del tirador y sus 5 disparos nos permitirá derribar enemigos fácilmente. Por último utilizaremos bomba adherente para aportar daño en área.  Es muy importante la mejora del francotirador para poder hacer zoom al disparar, así como también la mejora de recarga táctica para tener otro disparo al esquivar.  </p>
 
 
 					<p>En la espada ropera escogeremos: </p>
 
-					<div class="display__flex"> 
+					<div class="col-md-6"> 
 
-					<img src="../img/maestriarapier.jpg" alt=" Imagen de puntos de maestría para espada ropera"	class="imagen__guia item__mitad">
-
-					<p class="item__mitad"> La réplica nos permitirá evitar impactos enemigos y a su vez aturdirlos e infligir desgarro lo que nos permitirá aumentar el daño contra el objetivo. Esquive nos permitirá esquivar golpes al hacernos invulnerables por un breve tiempo, además otorga aumento del daño en el siguiente ataque ligero y recupera 20 de resistencia. Por último el venablo nos permitirá escapar y reposicionarnos o incluso perseguir nuestro objetivo. </p>
+					<img src="../img/maestriarapier.jpg" alt=" Imagen de puntos de maestría para espada ropera"	class="w-100 pb-3">
 
 					</div>
+
+					<p class="col-md-6"> La réplica nos permitirá evitar impactos enemigos y a su vez aturdirlos e infligir desgarro lo que nos permitirá aumentar el daño contra el objetivo. Esquive nos permitirá esquivar golpes al hacernos invulnerables por un breve tiempo, además otorga aumento del daño en el siguiente ataque ligero y recupera 20 de resistencia. Por último el venablo nos permitirá escapar y reposicionarnos o incluso perseguir nuestro objetivo. </p>
+
 
 <!-- ends weapon mastery/stars weapon gems -->
 
@@ -794,7 +799,7 @@
 
 				<h3 id="guiadinamita"> GUIA DE MAGO DINAMITA </h3>
 
-				<img src="../img/guiadevacio.jpg" alt="Imagen de manopla de vacío New World" class="imagen__guia">
+				<img src="../img/guiadevacio.jpg" alt="Imagen de manopla de vacío New World" class="w-100 pb-3">
 
 				<p>
 				Es una build muy utilizada por la cantidad de utilidad que aporta sobre todo  para PVP, además de aportar daño en área, pero su principal función es la utilidad. 	
@@ -806,15 +811,17 @@
 				Para esta build es recomendable utilizar los siguientes atributos:
 				</p>
 
-				<div class="display__flex"> 
+				<div class="col-md-6"> 
 
-				<img src="../img/atributosmagodinamita.jpg" alt=" Imagen de atributos Mago dinamita" class="imagen__guia item__mitad">
+				<img src="../img/atributosmagodinamita.jpg" alt=" Imagen de atributos Mago dinamita" class="w-100 pb-3">
 
-				<p class="item__mitad"> 
+				</div>
+
+				<p class="col-md-6"> 
 				Esta distribución de los atributos nos permitirá infligir daño pero lo más importante es que nos brinda supervivencia ya que tendremos que acercarnos a pelear cuerpo a cuerpo y meternos en los combos para aportar utilidad y ayudar  nuestro equipo a derribar al equipo enemigo. 
 				</p>
 
-				</div>
+				
 				
 
 				<p> En la rama de inteligencia al utilizar 300 obtendremos: </p>
@@ -1068,23 +1075,26 @@
 
 					<p> En la manopla de vacío utilizaremos: </p>
 
-					<div class="display__flex"> 
+					<div class="col-md-6"> 
 
-					<img src="../img/maestriavoiddinamita.jpg" alt=" Imagen de puntos de maestría para manopla de vacío" class="imagen__guia item__mitad">
-
-					<p class="item__mitad"> Utilizaremos grito petrificante para enraizar a los enemigos durante 2 segundos, que también nos otorga fortificación para absorber más daño en los enfrentamientos. Como principal daño utilizaremos filo de vacío para poder acabar con nuestros objetivos y que a su vez también otorga fortificación y nos permite curarnos parte del daño infligido. Por último utilizaremos olvido anulador para aumentar nuestro daño y eliminar las potenciaciones de nuestros enemigos.   </p>
+					<img src="../img/maestriavoiddinamita.jpg" alt=" Imagen de puntos de maestría para manopla de vacío" class="w-100 pb-3">
 
 					</div>
+
+					<p class="col-md-6"> Utilizaremos grito petrificante para enraizar a los enemigos durante 2 segundos, que también nos otorga fortificación para absorber más daño en los enfrentamientos. Como principal daño utilizaremos filo de vacío para poder acabar con nuestros objetivos y que a su vez también otorga fortificación y nos permite curarnos parte del daño infligido. Por último utilizaremos olvido anulador para aumentar nuestro daño y eliminar las potenciaciones de nuestros enemigos.   </p>
+
+					
 
 					<p>En la manopla de hielo escogeremos: </p>
 
-					<div class="display__flex"> 
+					<div class="col-md-6"> 
 
-					<img src="../img/maestriahielodinamita.jpg" alt=" Imagen de puntos de maestría para manopla de hielo" class="imagen__guia item__mitad">
-
-					<p class="item__mitad"> En la manopla de hielo Utilizaremos, la sepultura nos permitirá hacernos invulnerables durante un tiempo, regenerar maná y resistencia, eliminar todas las despontenciaciones y al salir nos otorga un aumento de defensa del 25% durante 3 segundos. Lluvia de hielo nos otorga un aumento de velocidad de movimiento al atravesar la misma y aplica una fuerte congelación y desgarro a los enemigos. Como principal fuente de daño de hielo utilizaremos tormenta de hielo que nos permitirá aportar daño por seguro en área y a su vez si impactamos con un ataque pesado a un enemigo que está en la tormenta lo enraizaremos durante 1 segundo.  </p>
+					<img src="../img/maestriahielodinamita.jpg" alt=" Imagen de puntos de maestría para manopla de hielo" class="w-100 pb-3">
 
 					</div>
+
+					<p class="col-md-6"> En la manopla de hielo Utilizaremos, la sepultura nos permitirá hacernos invulnerables durante un tiempo, regenerar maná y resistencia, eliminar todas las despontenciaciones y al salir nos otorga un aumento de defensa del 25% durante 3 segundos. Lluvia de hielo nos otorga un aumento de velocidad de movimiento al atravesar la misma y aplica una fuerte congelación y desgarro a los enemigos. Como principal fuente de daño de hielo utilizaremos tormenta de hielo que nos permitirá aportar daño por seguro en área y a su vez si impactamos con un ataque pesado a un enemigo que está en la tormenta lo enraizaremos durante 1 segundo.  </p>
+
 
 <!-- ends weapon mastery/stars weapon gems -->
 
@@ -1157,6 +1167,7 @@
 					
 		
 		 	</article>
+</div>		 	
 	
 	</main>
 
@@ -1177,6 +1188,8 @@
 
 
 	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

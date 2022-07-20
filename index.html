@@ -5,107 +5,108 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FrichoxArmy</title>
 	<link rel="shortcut icon" href="img/favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
-	<nav>
 
-		<a href="index.html">
-			<img src="img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
-		</a>
+<!-- stars nav  -->
+ 
+ 	<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+    	<img src="img/logo.png" alt="Logo de Frichox Army comunidad gamer" class="logo">
+    </a>
+    <button class="navbar-toggler bg-violet" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-gray"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="pages/noticias.html">NOTICIAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="pages/guias.html">GUIAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="pages/comunidad.html">COMUNIDAD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="pages/contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>	
 
-		<ul>
-			<li>
-				<a href="pages/noticias.html">NOTICIAS</a>
+<!-- ends nav -->
 
-			</li>
-			<li>
-				<a href="pages/guias.html">GUIAS</a>
+<!-- starts header -->
 
-			</li>
-			<li>
-				<a href="pages/comunidad.html">COMUNIDAD</a>
-
-			</li>
-			<li>
-				<a href="pages/contacto.html">CONTACTO</a>
-
-			</li>
-
-
-		</ul>
-
-
-	</nav>
-	
-	<!-- ends nav -->
-
-	<header class="seccion">
-		<img src="img/bienvenidos.jpg" alt="Imagen Bienvenidos gamers" class="articulo__header">
+	<header>
+		<img src="img/bienvenidos.jpg" alt="Imagen Bienvenidos gamers" class="w-100">
 	</header>
-	<!-- ends header -->
+<!-- ends header -->
+
+
 	<main>
-		
+
+<div class="container-fluid py-3">		
 
 	<h1> COMUNIDAD GAMER ENFOCADA EN COMPARTIR BUENOS MOMENTOS</h1>
 
-		
-		
-		
 
 	<h2> MÁS RECIENTES</h2>
 
+	<div class="row"> 
 
-		<section class="seccion__figure"> 
 
-			<figure class="figure">
+			<figure class="col-md-4 boxShadow bg-gray">
 
 				<a href="pages/noticias.html #noticiahl"> 
 
-					<img src="img/hogwartslegacy.jpg" alt=" Imagen de Hogwarts Legacy" class="figure__imagen">
+					<img src="img/hogwartslegacy.jpg" alt=" Imagen de Hogwarts Legacy" class="w-100">
 
 					<p> HOGWARTS LEGACY LLEGA A FINALES DE 2022 </p>
 				</a>
 			</figure>
 
 
-			<figure class="figure">
+			<figure class="col-md-4 boxShadow bg-gray">
 
 				<a href="pages/noticias.html #noticiatl"> 
 
-					<img src="img/thronesandliberty.jpg" alt=" Imagen de Thrones and Liberty" class="figure__imagen">
+					<img src="img/thronesandliberty.jpg" alt=" Imagen de Thrones and Liberty" class="w-100">
 
 					<p> THRONES AND LIBERTY ESTARÁ DISPONIBLE EN LA SEGUNDA MITAD DE 2022 </p>
 				</a>
 
 			</figure>
 
-			<figure class="figure">
+			<figure class="col-md-4 boxShadow bg-gray">
 
 				<a href="pages/noticias.html #noticiaark"> 
 
-					<img src="img/ark2.jpg" alt=" Imagen de ARK 2" class="figure__imagen">
+					<img src="img/ark2.jpg" alt=" Imagen de ARK 2" class="w-100">
 
 					<p> ARK 2 SE LANZARÁ EN 2023 </p>
 				</a>
 
 			</figure>
-		</section>
-
 		
-
+		
+	</div>
 		
 
 	<h2> MÁS VISTOS</h2>
 
-		<section class="seccion__figure">
+	<div class="row">  
 
-			<figure class="figure"> 
+			<figure class="col-md-4 boxShadow bg-gray"> 
 
 				<a href="pages/guias.html #guiahealer"> 
 
-					<img src="img/guiadehealer.jpg" alt=" Imagen de healer New World" class="figure__imagen">
+					<img src="img/guiadehealer.jpg" alt=" Imagen de healer New World" class="w-100">
 
 				<p> GUIA DE HEALER </p>
 
@@ -113,22 +114,22 @@
 
 			</figure>
 
-			<figure class="figure"> 
+			<figure class="col-md-4 boxShadow bg-gray"> 
 
 				<a href="pages/guias.html #guiamosquete"> 
 
-					<img src="img/guiamosquete.jpg" alt=" Imagen de mosquete New World" class="figure__imagen">
+					<img src="img/guiamosquete.jpg" alt=" Imagen de mosquete New World" class="w-100">
 
 					<p> GUIA DE MOSQUETE GLASS CANNON </p>
 				</a>
 
 			</figure>
 
-			<figure class="figure"> 
+			<figure class="col-md-4 boxShadow bg-gray"> 
 
 				<a href="pages/guias.html #guiadinamita"> 
 
-					<img src="img/guiadevacio.jpg" alt=" Imagen de manopla de vacío New World" class="figure__imagen">
+					<img src="img/guiadevacio.jpg" alt=" Imagen de manopla de vacío New World" class="w-100">
 
 					<p> GUIA DE MAGO DINAMITA </p>
 				</a>
@@ -136,58 +137,43 @@
 			</figure>
 
 
-		</section>
-
-		
-		
+	</div>
+	
 
 	<h2>SUSCRIBITE PARA RECIBIR MÁS NOTICIAS</h2>
 
-	<section class="seccion">
+<!-- starts form-->
 
-			<form action="envio.php" class="text-white">
+	<div class="row col-md-6"> 
 
+		<div class="mb-3 text-white">
+	  		<label for="name" class="form-label">Nombre</label>
+	  		<input type="text" class="form-control" id="name">
+		</div>
 
-				<div class="divform"> 
-				<label for="name" class="form__item">Nombre</label>
+		<div class="mb-3 text-white">
+	  		<label for="surname" class="form-label">Apellido</label>
+	  		<input type="text" class="form-control" id="surname">
+		</div>
 
-				<div class="divinput">
-				<input type="text" id="name">
-				</div>
-				</div>
+		<div class="mb-3 text-white">
+	  		<label for="email" class="form-label">Email</label>
+	  		<input type="email" class="form-control" id="email">
+		</div>
 
-				<div class="divform">
-				<label for="surname" class="form__item">Apellido</label>
+		<div class="mb-3 text-white">
+    		<button type="submit" class="btn btn-primary mb-3">Enviar</button>
+    		<button type="reset" class="btn btn-secondary mb-3">Cancelar</button>
+  		</div>
 
-				<div class="divinput">
-				<input type="text" id="surname">
-				</div>
-
-				</div>
-
-				<div class="divform">
-				<label for="correo" class="form__item">Mail</label>
-
-				<div class="divinput">
-				<input type="email" id="correo">
-				</div>
-
-				</div>
-
-				<div class="divform">
-				<input type="submit" name="Enviar">
-				<input type="reset" value="Cancelar">
-
-				</div>
-
-
-			</form>
+	</div>
 
 			
-	<!-- ends form-->
+<!-- ends form-->
 
 
-		</section>
+		
+</div>
 
 	</main>
 
@@ -212,7 +198,7 @@
 
 	</footer>
 
-
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
