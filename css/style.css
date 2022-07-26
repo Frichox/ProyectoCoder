@@ -87,6 +87,11 @@ p	{color: white;
  	background-color: #592EBD;
  }
 
+  .btn-violet {
+
+ 	background-color: #592EBD;
+ }
+
  .bg-gray {
 
  	background-color: #212121;
@@ -277,5 +282,12 @@ p	{color: white;
 
 	}
  
+ 	.imgScale:hover {
+
+ 	transition: all 400ms;
+	transform: scale(1.15);
+
+
+	}
 }
  /*ends responsive*/
