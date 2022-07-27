@@ -1,0 +1,101 @@
+body { 
+
+background-color: #212121;
+margin: auto;
+
+
+}
+
+h1 { 
+
+	color: $mainColor;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 700;
+	padding: 10px;
+
+}
+
+h2 { 
+
+	color: $secondaryColor;
+	text-align: left;
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 10px;	
+
+}
+
+h3 {
+
+	color: $thirdColor;
+	text-align: left;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 10px 0; 
+
+}
+
+h4 {
+
+	color: $fourthColor;
+	width: 100%;
+ 	height: auto;
+ 	padding: 10px 0; 
+ 	font-size: 1.1rem;
+
+}
+
+p { 
+
+	color: $whiteColor;
+	width: auto;
+ 	height: auto;
+ 	font-size: 1rem;
+ 	text-align: justify;
+
+}
+
+article {
+
+	a {
+		text-decoration: none;
+	}
+}
+
+figure {
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.bg-violet { 
+
+	background-color: $mainColor;
+}
+
+  .btn-violet {
+
+ 	background-color: $mainColor;
+ }
+  .bg-gray {
+
+ 	background-color: $grayColor;
+ }
+
+.text-contacto {
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: justify;
+}
+
+ .carousel-item img {
+
+	object-fit: cover;
+	object-position: center;
+	height: 50vh;
+	overflow: hidden;
+
+ }

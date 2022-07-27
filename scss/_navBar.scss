@@ -1,0 +1,26 @@
+nav {
+	ul {
+		li {
+			a {
+
+			text-decoration: none;
+			padding: 1.6rem;
+			font-size: 1rem;
+			font-weight: 700;
+			&:hover {
+
+				background-color: $hoverColor; 
+
+			 }
+			
+			}
+		}
+	}
+	
+} 
+
+.logo { 
+
+	width: 100px; 
+
+	}

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 1.6rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+nav ul li a:hover {
+  background-color: #999989;
+}
+
+.logo {
+  width: 100px;
+}
+
+body {
+  background-color: #212121;
+  margin: auto;
+}
+
+h1 {
+  color: #592EBD;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+h2 {
+  color: #8D43BB;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+h3 {
+  color: #A552D8;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+h4 {
+  color: #B766C3;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
+p {
+  color: #FFFFFF;
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+article a {
+  text-decoration: none;
+}
+
+figure a {
+  text-decoration: none;
+}
+
+.bg-violet {
+  background-color: #592EBD;
+}
+
+.btn-violet {
+  background-color: #592EBD;
+}
+
+.bg-gray {
+  background-color: #212121;
+}
+
+.text-contacto {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.footer {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/bgfooter.png);
+}
+
+.footer__icon {
+  width: 40px;
+  padding: 5px;
+}
+
+@media (min-width: 580px) {
+  .text-contacto {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  nav ul li {
+    padding: 0.5rem;
+  }
+  .logo {
+    width: 120px;
+  }
+  .boxShadow {
+    box-shadow: 5px 5px 10px black;
+    padding: 5px;
+    transition: all 400ms;
+  }
+  .text-contacto {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    max-width: 1300px;
+  }
+  .logo {
+    width: 130px;
+  }
+  nav ul li a {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .text-contacto {
+    font-size: 1.6rem;
+  }
+  .boxShadow:hover {
+    transform: scale(1.15);
+  }
+  .imgScale:hover {
+    transition: all 400ms;
+    transform: scale(1.15);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

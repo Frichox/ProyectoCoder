@@ -30,7 +30,7 @@ li a:hover { background-color: #999989; }
 
 
  h1 {
-	color: #592EBD ;
+	color: #592EBD;
 	text-align: center;
 	font-size: 1.4rem;
 	font-weight: 700;
@@ -41,7 +41,7 @@ li a:hover { background-color: #999989; }
 
 	
 
-h2 { color:  #8D43BB;
+h2 { color: #8D43BB;
 	text-align: left;
 	font-size: 1.3rem;
 	font-weight: 600;
@@ -50,7 +50,7 @@ h2 { color:  #8D43BB;
 
 	}
 
-h3 { color:  #A552D8;
+h3 { color: #A552D8;
 	text-align: left;
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -68,7 +68,7 @@ h4 { color: #B766C3;
  	
  }
 
-p	{color: white;
+p	{color: #FFFFFF;
 	width: auto;
  	height: auto;
  	font-size: 1rem;
@@ -87,6 +87,11 @@ p	{color: white;
  	background-color: #592EBD;
  }
 
+  .btn-violet {
+
+ 	background-color: #592EBD;
+ }
+
  .bg-gray {
 
  	background-color: #212121;
@@ -97,9 +102,6 @@ p	{color: white;
 	width: 100px; 
 
 	}
-
-.text-white { color: white; }
-
 
 .figure { 
 
@@ -155,7 +157,6 @@ p	{color: white;
 
 @media (min-width: 580px){
 
-	iframe { width: 560px; }
 
 	.text-contacto {
 
@@ -203,8 +204,6 @@ p	{color: white;
 	font-size: 1.4rem;
 	
 	}
-
-
 
 
 }
@@ -267,7 +266,6 @@ p	{color: white;
 	
 	}
 
-	iframe { width: 100%; }
 
 
 	.boxShadow:hover {
@@ -277,5 +275,12 @@ p	{color: white;
 
 	}
  
+ 	.imgScale:hover {
+
+ 	transition: all 400ms;
+	transform: scale(1.15);
+
+
+	}
 }
  /*ends responsive*/
