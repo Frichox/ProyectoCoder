@@ -5,13 +5,13 @@
   margin: 0;
 }
 
-nav ul li a {
+.navItem {
   text-decoration: none;
   padding: 1.6rem;
   font-size: 1rem;
   font-weight: 700;
 }
-nav ul li a:hover {
+.navItem:hover {
   background-color: #999989;
 }
 
@@ -25,11 +25,11 @@ body {
 }
 
 h1 {
-  color: #592EBD;
+  color: #5C2EC6;
   text-align: center;
   font-size: 1.4rem;
   font-weight: 700;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
   text-align: left;
   font-size: 1.3rem;
   font-weight: 600;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 h3 {
@@ -50,18 +50,20 @@ h3 {
 
 h4 {
   color: #B766C3;
-  width: 100%;
-  height: auto;
-  padding: 10px 0;
+  text-align: left;
   font-size: 1.1rem;
+  font-weight: 400;
+  padding: 10px 0;
 }
 
-p {
+.parrafos, .text-contacto, p {
   color: #FFFFFF;
-  width: auto;
-  height: auto;
   font-size: 1rem;
   text-align: justify;
+}
+
+.text-contacto {
+  font-weight: 600;
 }
 
 article a {
@@ -73,22 +75,15 @@ figure a {
 }
 
 .bg-violet {
-  background-color: #592EBD;
+  background-color: #5C2EC6;
 }
 
 .btn-violet {
-  background-color: #592EBD;
+  background-color: #5C2EC6;
 }
 
 .bg-gray {
   background-color: #212121;
-}
-
-.text-contacto {
-  text-align: left;
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: justify;
 }
 
 .carousel-item img {
@@ -144,7 +139,7 @@ figure a {
   .logo {
     width: 130px;
   }
-  nav ul li a {
+  .navLink {
     font-size: 1.4rem;
   }
   h1 {

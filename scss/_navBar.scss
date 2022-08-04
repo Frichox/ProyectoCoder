@@ -1,7 +1,4 @@
-nav {
-	ul {
-		li {
-			a {
+.navItem {
 
 			text-decoration: none;
 			padding: 1.6rem;
@@ -9,14 +6,10 @@ nav {
 			font-weight: 700;
 			&:hover {
 
-				background-color: $hoverColor; 
+				background-color: map-get($map:$paleta,$key:'tres'); 
 
 			 }
 			
-			}
-		}
-	}
-	
 } 
 
 .logo { 

@@ -1,59 +1,61 @@
 body { 
 
-background-color: #212121;
+background-color: map-get($map:$paleta,$key:'dos'); 
 margin: auto;
 
+}
 
+@mixin titulos ($color,$textAlling,$fontSize,$fontWeight){
+
+	color: $color;
+	text-align: $textAlling;
+	font-size: $fontSize;
+	font-weight: $fontWeight;
+	padding: 10px 0;
 }
 
 h1 { 
 
-	color: $mainColor;
-	text-align: center;
-	font-size: 1.4rem;
-	font-weight: 700;
-	padding: 10px;
-
+	@include titulos($mainColor,center,1.4rem,700);
+	
 }
 
 h2 { 
 
-	color: $secondaryColor;
-	text-align: left;
-	font-size: 1.3rem;
-	font-weight: 600;
-	padding: 10px;	
+	@include titulos($secondaryColor,left,1.3rem,600);
 
 }
 
 h3 {
 
-	color: $thirdColor;
-	text-align: left;
-	font-size: 1.2rem;
-	font-weight: 500;
-	padding: 10px 0; 
+	@include titulos($thirdColor,left,1.2rem,500); 
 
 }
 
 h4 {
 
-	color: $fourthColor;
-	width: 100%;
- 	height: auto;
- 	padding: 10px 0; 
- 	font-size: 1.1rem;
+	@include titulos($fourthColor,left,1.1rem,400); 
+
+}
+
+.parrafos {
+
+	color: $whiteColor;
+ 	font-size: 1rem;
+ 	text-align: justify;
 
 }
 
 p { 
 
-	color: $whiteColor;
-	width: auto;
- 	height: auto;
- 	font-size: 1rem;
- 	text-align: justify;
+	@extend .parrafos;
 
+}
+
+.text-contacto {
+
+	@extend .parrafos;
+	font-weight: 600;
 }
 
 article {
@@ -72,24 +74,17 @@ figure {
 
 .bg-violet { 
 
-	background-color: $mainColor;
+	background-color: map-get($map:$paleta,$key:'uno');
 }
 
   .btn-violet {
 
- 	background-color: $mainColor;
+ 	background-color: map-get($map:$paleta,$key:'uno');
  }
   .bg-gray {
 
- 	background-color: $grayColor;
+ 	background-color: map-get($map:$paleta,$key:'dos');
  }
-
-.text-contacto {
-	text-align: left;
-	font-size: 1rem;
-	font-weight: 600;
-	text-align: justify;
-}
 
  .carousel-item img {
 
