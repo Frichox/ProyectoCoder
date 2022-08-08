@@ -85,6 +85,11 @@ figure {
 
  	background-color: map-get($map:$paleta,$key:'dos');
  }
+  .btn-gray {
+
+ 	background-color: map-get($map:$paleta,$key:'cuatro');
+ }
+
 
  .carousel-item img {
 

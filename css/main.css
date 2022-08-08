@@ -19,13 +19,22 @@
   width: 100px;
 }
 
+svg {
+  width: 40px;
+  height: 40px;
+}
+svg rect {
+  width: 100%;
+  height: 12px;
+}
+
 body {
   background-color: #212121;
   margin: auto;
 }
 
 h1 {
-  color: #5C2EC6;
+  color: #8D26FB;
   text-align: center;
   font-size: 1.4rem;
   font-weight: 700;
@@ -75,15 +84,19 @@ figure a {
 }
 
 .bg-violet {
-  background-color: #5C2EC6;
+  background-color: #8D26FB;
 }
 
 .btn-violet {
-  background-color: #5C2EC6;
+  background-color: #8D26FB;
 }
 
 .bg-gray {
   background-color: #212121;
+}
+
+.btn-gray {
+  background-color: #9B9A9A;
 }
 
 .carousel-item img {
@@ -134,7 +147,7 @@ figure a {
 }
 @media (min-width: 1200px) {
   body {
-    max-width: 1300px;
+    max-width: 1200px;
   }
   .logo {
     width: 130px;
